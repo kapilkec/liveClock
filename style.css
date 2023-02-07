@@ -1,0 +1,136 @@
+#clockContainer {
+  border-radius: 50%;
+  background-color: rgb(52, 66, 66);
+  width: 30rem;
+  height: 30rem;
+  position: relative;
+  padding: 1rem;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  height: 97vh;
+  align-items: center;
+}
+
+.BigLineTop {
+  position: absolute;
+  width: 5px;
+  left: 50%;
+  /* top:2%;
+	bottom: 2%; */
+  height: 95%;
+  background-color: black;
+}
+
+.BigLineBottom {
+  position: absolute;
+  width: 5px;
+  left: 50%;
+  height: 95%;
+  background-color: black;
+  transform: rotate(90deg);
+}
+
+.AllSmallLine {
+  position: absolute;
+  width: 2px;
+  left: 50%;
+  height: 95%;
+  background-color: black;
+}
+
+.SmallLine1 {
+  transform: rotate(30deg);
+}
+
+.SmallLine2 {
+  transform: rotate(60deg);
+}
+
+.SmallLine3 {
+  transform: rotate(120deg);
+}
+
+.SmallLine4 {
+  transform: rotate(150deg);
+}
+
+.BackGround {
+  position: absolute;
+  height: 71%;
+  width: 71%;
+  border-radius: 50%;
+  background-color: rgb(52, 66, 66);
+  top: 15%;
+  left: 15%;
+}
+
+/* #hour {
+  z-index: 1;
+  position: absolute;
+  width: 3px;
+  left: 50%;
+  height: 25%;
+  background-color: black;
+  top: 26%;
+} */
+
+.CenterDot {
+ 
+ 
+    position: absolute;
+    width: 21px;
+    height: 21px;
+    background-color: rgb(14 15 15);
+    border-radius: 50%;
+    top: 47%;
+    left: 47.5%;
+    z-index: 1;
+}
+
+#hour,
+#minute,
+#second {
+	z-index: 1;
+    position: absolute;
+    background: rgb(249, 10, 10);
+    border-radius: 10px;
+    transform-origin: bottom;
+}
+#second{
+	background-color: rgb(255, 255, 255);
+}
+  
+#hour {
+    width: 1.8%;
+    height: 25%;
+    top: 25%;
+    left: 48.85%;
+    opacity: 0.8;
+}
+  
+#minute {
+    width: 1.6%;
+    height: 30%;
+    top: 19%;
+    left: 48.9%;
+    opacity: 0.8;
+}
+  
+#second {
+    width: 1%;
+    height: 40%;
+    top: 9%;
+    left: 49.25%;
+    opacity: 0.8;
+}
+
+body{
+	background-color: aqua;
+	background: linear-gradient(to left, rgb(196, 178, 178), rgb(235, 178, 74),rgb(155, 206, 155));
+	/* background:url("https://images.pexels.com/photos/1323550/pexels-photo-1323550.jpeg?auto=compress&cs=tinysrgb&w=600") no-repeat ; */
+	background-size:100%;
+	background-position: center;
+}
